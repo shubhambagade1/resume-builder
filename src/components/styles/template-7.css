@@ -1,0 +1,117 @@
+.template-7-resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-7-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.template-7-header-left {
+    flex: 1;
+}
+
+.template-7-header-left h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #0044cc;
+}
+
+.template-7-header-left p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.template-7-header-right {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.template-7-header-right img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.template-7-contact-info p {
+    margin: 5px 0;
+}
+
+.template-7-section-title {
+    font-size: 22px;
+    color: #0044cc;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0044cc;
+    padding-bottom: 5px;
+}
+
+.template-7-section {
+    margin-bottom: 20px;
+}
+
+.template-7-job-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.template-7-company {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.template-7-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.template-7 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.template-7-key-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.template-7-skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.template-7-skill p {
+    flex: 1;
+    margin: 0 10px 0 0;
+}
+
+.template-7-progress-bar {
+    position: relative;
+    flex: 2;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.template-7-progress {
+    height: 100%;
+    background-color: #0044cc;
+}

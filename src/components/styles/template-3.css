@@ -1,0 +1,27 @@
+.template-3-main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-template-3{
+    display: flex;
+    justify-content: start;
+    width: 800px;
+}
+
+.template-3-left-content{
+    width: 273px;
+}
+
+
+.template-3-right-content{
+    width: 527px;
+}
+
+.leftside-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

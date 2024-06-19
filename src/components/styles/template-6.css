@@ -1,0 +1,77 @@
+.template-6-resume-container {
+    display: flex;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-6-left-column {
+    width: 33%;
+    background-color: #2a4d54;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.template-6-right-column {
+    width: 70%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.template-6-profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.template-6-h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.template-6-job-title {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.template-6-section {
+    margin-bottom: 20px;
+}
+
+.template-6-section h3 {
+    border-bottom: 1px solid #f2af01;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #f2af01;
+}
+
+.template-6-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.template-6-section ul li {
+    padding: 5px 0;
+}
+
+.template-6-right-column .template-6-section h4 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.template-6-right-column .template-6-section p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.template-6-right-column .template-6-section ul li {
+    font-size: 14px;
+    color: #555;
+}
