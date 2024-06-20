@@ -1,0 +1,96 @@
+.template-11-main-wrapper {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.template-11-resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.template-11-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.template-11-header-right{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;}
+
+.template-11-header-left h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.template-11-header-left p,
+.template-11-header-right p {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.template-11-section {
+    margin-bottom: 20px;
+}
+
+.template-11-section h2 {
+    font-size: 18px;
+    color: #000;
+    background-color: #d0cbcb;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.template-11-section h3 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.template-11-section h4 {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.template-11-section p,
+.template-11-section ul {
+    font-size: 14px;
+    color: #000;
+}
+
+.template-11-section ul {
+    margin: 0 0 10px 20px;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.template-11-download-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.template-11-downloadpdf-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.template-11-downloadpdf-btn:hover {
+    background: #333;
+}

@@ -13,6 +13,8 @@ import Template7 from "./components/resume/Template7"
 import Template8 from "./components/resume/Template8"
 import Template9 from "./components/resume/Template9"
 import Template10 from "./components/resume/Template10"
+import Template11 from "./components/resume/Template11"
+
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/template8" element={<Template8 />} />
         <Route path="/template9" element={<Template9 />} />
         <Route path="/template10" element={<Template10 />} />
+        <Route path="/template11" element={<Template11 />} />
+
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
