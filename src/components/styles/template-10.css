@@ -1,0 +1,141 @@
+.template-10.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-10.resume-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+.template-10-header-left h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.template-10-header-left h2 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #1a73e8;
+}
+
+.template-10-header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.template-10-header-right p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.template-10.header-right p svg {
+    margin-right: 8px;
+}
+
+.template-10.header-right a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.template-10.header-right a:hover {
+    text-decoration: underline;
+}
+
+.template-10.resume-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.template-10.left-column {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.template-10.right-column {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid #000;
+}
+
+.template-10.resume-section {
+    margin-bottom: 20px;
+}
+
+.template-10.resume-section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.template-10.job,
+.template-10.education-item {
+    margin-bottom: 20px;
+}
+
+.template-10.job h3,
+.template-10.education-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.template-10.company,
+.template-10.degree {
+    font-size: 16px;
+    font-style: italic;
+    color: #1a73e8;
+}
+
+.template-10.date-location {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.template-10.job ul,
+.template-10.skills ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.template-10.skills ul {
+    padding: 0;
+    text-align: left;
+}
+
+.template-10.skills ul li {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .template-10.resume-container {
+        padding: 10px;
+    }
+
+    .template-10.resume-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .template-10.resume-main {
+        flex-direction: column;
+    }
+
+    .template-10.right-column {
+        border-left: none;
+        border-top: 2px solid #000;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}

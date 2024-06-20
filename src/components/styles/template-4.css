@@ -117,6 +117,7 @@
     }
 
     input:checked+label {
-        background: #79A9CE;
+        background: #1989e0;
+        ;
     }
 }

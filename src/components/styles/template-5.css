@@ -35,7 +35,7 @@ section {
     margin-bottom: 20px;
 }
 
-h3 {
+.heading-template-5 {
     color: #f2af01;
     margin-bottom: 10px;
 }
@@ -48,14 +48,4 @@ h3 {
 .date {
     font-style: italic;
     color: #888;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    display: inline-block;
-    margin-right: 20px;
 }

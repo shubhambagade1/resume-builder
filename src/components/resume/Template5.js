@@ -47,11 +47,11 @@ const Resume = () => {
                     </div>
                 </header>
                 <section className="personal-profile">
-                    <h3>Personal Profile</h3>
+                    <h3 className='heading-template-5'>Personal Profile</h3>
                     <p contentEditable>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
                 </section>
                 <section className="work-experience">
-                    <h3>Work Experience</h3>
+                    <h3 className='heading-template-5'>Work Experience</h3>
                     <div className="job">
                         <h4 contentEditable>Job Title at Company</h4>
                         <p className="date" contentEditable>April 2011 - Present</p>
@@ -69,7 +69,7 @@ const Resume = () => {
                     </div>
                 </section>
                 <section className="key-skills">
-                    <h3>Key Skills</h3>
+                    <h3 className='heading-template-5'>Key Skills</h3>
                     <ul>
                         <li contentEditable>A Key Skill</li>
                         <li contentEditable>A Key Skill</li>
@@ -78,7 +78,7 @@ const Resume = () => {
                     </ul>
                 </section>
                 <section className="education">
-                    <h3>Education</h3>
+                    <h3 className='heading-template-5'>Education</h3>
                     <div className="education-item">
                         <h4 contentEditable>College/University</h4>
                         <p contentEditable>Qualification</p>

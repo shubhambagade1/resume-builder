@@ -178,7 +178,7 @@ th {
 
 .downloadpdf-btn {
   padding: 5px;
-  margin: 30px;  
+  margin: 30px;
   background-color: #007bff;
   border: none;
   border-radius: 20px;
@@ -200,10 +200,11 @@ th {
   }
 
   .download-section {
-    width: 315px;
-    text-align: center;
-    color: rgb(0, 102, 133);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
   }
+
 
   .left-section {
     font-size: medium;
@@ -341,7 +342,7 @@ th {
 }
 
 @media print {
-  .addrow-btn{
+  .addrow-btn {
     display: none;
   }
 }

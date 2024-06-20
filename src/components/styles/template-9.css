@@ -1,0 +1,171 @@
+.template-9-resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.template-9-header {
+    background-color: #a259e6;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 100em 0 0 100em;
+}
+
+.template-9-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-right: 20px;
+}
+
+.template-9-header-content {
+    flex: 1;
+}
+
+.template-9-header-content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.template-9-header-content p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.template-9-contact-info {
+    text-align: right;
+    color: white;
+}
+
+.template-9-main {
+    display: flex;
+    padding: 20px;
+}
+
+.template-9-left {
+    width: 70%;
+}
+
+.template-9-right {
+    width: 30%;
+}
+
+.template-9-section-title,
+.template-9-section-title-skills {
+    font-size: 24px;
+    color: #a259e6;
+    margin: 20px 0 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.template-9-section-title::after {
+    content: '';
+    width: 518px;
+    height: 2px;
+    background: #a259e6;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.template-9-section-title-skills::after {
+    content: '';
+    width: 184px;
+    height: 2px;
+    background: #a259e6;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    left: 0;
+}
+
+.template-9-section {
+    margin-bottom: 20px;
+}
+
+.template-9-job-title,
+.template-9-degree {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.template-9-company,
+.template-9-school {
+    font-size: 16px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.template-9-date {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.template-9 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.template-9-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.template-9-skill {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.template-9-skill p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.skill-name-template9 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 4px;
+}
+
+.skills__item-template-9 {
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #C3DEF3;
+        border-radius: 20px;
+        margin-right: 3px;
+    }
+
+    input:checked+label {
+        background: #a259e6;
+    }
+}
+
+.skillcheckbox {
+    text-align: right;
+    width: 159px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .template-9-resume-container {
+        width: 800px;
+    }
+}
