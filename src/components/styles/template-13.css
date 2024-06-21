@@ -1,0 +1,126 @@
+.template-13-main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.template-13-resume-container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-13-left {
+    width: 30%;
+    background: #eaeaea;
+    padding: 20px;
+}
+
+.template-13-photo img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.template-13-contact,
+.template-13-skills,
+.template-13-hobbies {
+    margin-top: 20px;
+}
+
+.template-13-contact h3,
+.template-13-skills h3,
+.template-13-hobbies h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.template-13-contact p,
+.template-13-skills p,
+.template-13-hobbies p {
+    margin: 5px 0;
+}
+
+.template-13-skill-level {
+    margin-left: 20px;
+}
+
+.template-13-right {
+    width: 70%;
+    background: #333;
+    color: #fff;
+}
+
+.template-13-header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 14px;
+    color: #dedea9;
+}
+
+.template-13-header h2 {
+    font-size: 24px;
+    margin: 5px 0 20px;
+    color: #ddd;
+    padding-left: 20px;
+}
+
+.template-13-about,
+.template-13-education,
+.template-13-experience {
+    margin-top: 20px;
+}
+
+.template-13-about h3,
+.template-13-education h3,
+.template-13-experience h3 {
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: #dedea9;
+    width: 156px;
+}
+
+.template-13-about p,
+.template-13-education p,
+.template-13-experience p {
+    margin: 5px 0;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.template-13-education-year, .template-13-experience-current{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.skills__item-template-13 {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #c7c9c0;
+        border-radius: 20px;
+        margin-right: 3px;
+    }
+
+    input:checked+label {
+        background: #b8b851;
+    }
+}
+
+.template13-skillcheckbox {
+    text-align: right;
+    width: 159px;
+}

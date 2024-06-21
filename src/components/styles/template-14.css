@@ -1,0 +1,132 @@
+.template-14-main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.template-14-resume-container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-14-left-column {
+    flex: 2;
+    padding:7px 6px 0px 10px;
+}
+
+.template-14-right-column {
+    flex: 1;
+    background-color: #002060;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.template-14-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.template-14-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.template-14-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.template-14-header h1 {
+    margin: 0;
+    font-size: 34px;
+    color: #333;
+    padding-bottom: 8px;
+}
+
+.template-14-header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+}
+
+.template-14-section {
+    margin-bottom: 20px;
+}
+
+.template-14-section-title {
+    color: #002060;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.template-14-section p,
+.template-14-section li {
+    margin: 5px 0;
+}
+
+.template-14-section ul {
+    padding-left: 20px;
+}
+
+.template-14-date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.template-14-right-column .template-14-section {
+    width: 100%;
+}
+
+.template-14-right-column .template-14-section-title {
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.template-14-right-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template-14-right-column li {
+    margin-bottom: 10px;
+}
+
+.template-14-contact p,
+.template-14-professional-skills p,
+.template-14-languages p,
+.template-14-hobbies p,
+.template-14-personal-skills p {
+    margin: 5px 0;
+}
+
+.template-14-download-section {
+    margin-top: 20px;
+}
+
+.template-14-downloadpdf-btn {
+    background-color: #002060;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -31,7 +31,7 @@ const Resume = () => {
     return (
         <div className='template-3-main-wrapper'>
             <div className="main-content-template-4">
-                <header>
+                <header className='template-5-header'>
                     <div className="header-left">
                         <div className="profile-image">
                             <img id="profileImg" src={profileImg} alt="Profile" onClick={() => document.getElementById('profilePhotoInput').click()} />
