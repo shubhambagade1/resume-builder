@@ -17,6 +17,10 @@ import Template11 from "./components/resume/Template11"
 import Template12 from "./components/resume/Template12"
 import Template13 from "./components/resume/Template13"
 import Template14 from "./components/resume/Template14"
+import Template15 from "./components/resume/Template15"
+import Template16 from "./components/resume/Template16"
+import Template17 from "./components/resume/Template17"
+import Template18 from "./components/resume/Template18"
 
 const App = () => {
   return (
@@ -36,6 +40,10 @@ const App = () => {
         <Route path="/template12" element={<Template12 />} />
         <Route path="/template13" element={<Template13 />} />
         <Route path="/template14" element={<Template14 />} />
+        <Route path="/template15" element={<Template15 />} />
+        <Route path="/template16" element={<Template16 />} />
+        <Route path="/template17" element={<Template17 />} />
+        <Route path="/template18" element={<Template18 />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

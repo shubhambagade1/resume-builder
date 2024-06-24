@@ -1,0 +1,132 @@
+.template-16-main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.template-16-resume-container {
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.template-16-header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.template-16-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.template-16-header h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.template-16-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.template-16-contact p {
+    margin: 5px 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.template-16-content {
+    display: flex;
+    gap: 20px;
+}
+
+.template-16-left,
+.template-16-right {
+    width: 50%;
+}
+
+.template-16-summary,
+.template-16-experience,
+.template-16-education,
+.template-16-achievements,
+.template-16-skills,
+.template-16-courses,
+.template-16-passions {
+    margin-bottom: 20px;
+}
+
+.template-16-summary h3,
+.template-16-experience h3,
+.template-16-education h3,
+.template-16-achievements h3,
+.template-16-skills h3,
+.template-16-courses h3,
+.template-16-passions h3 {
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.template-16-summary p,
+.template-16-experience p,
+.template-16-education p,
+.template-16-achievements p,
+.template-16-courses p,
+.template-16-passions p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.template-16-experience .template-16-job h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.template-16-experience .template-16-job p {
+    font-size: 14px;
+    color: #777;
+    margin: 2px 0 10px;
+}
+
+.template-16-experience .template-16-job ul {
+    padding-left: 20px;
+}
+
+.template-16-experience .template-16-job li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.template-16-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.template-16-skills ul li {
+    list-style: none;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.template-16-achievements ul,
+.template-16-passions ul {
+    padding-left: 20px;
+}
+
+.template-16-achievements ul li,
+.template-16-passions ul li {
+    margin-bottom: 10px;
+}

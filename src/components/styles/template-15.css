@@ -1,0 +1,140 @@
+.template-15-main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.template-15-resume-container {
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-15-header-text {
+    width: 70%;
+    text-align: start;
+}
+
+.template-15-content-div {
+    display: flex;
+}
+
+.template-15-left {
+    margin-top: 20px;
+    width: 30%;
+    background: #eaeaea;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.template-15-photo {
+    width: 30%;
+}
+
+.template-15-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.template-15-contact,
+.template-15-education,
+.template-15-skills {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.template-15-contact h3,
+.template-15-education h3,
+.template-15-skills h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.template-15-contact p,
+.template-15-education p,
+.template-15-skills p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.template-15-right {
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+}
+
+.template-15-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.template-15-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.template-15-header h2 {
+    font-size: 24px;
+    margin: 5px 0 0;
+    color: #ddd;
+}
+
+.template-15-summary,
+.template-15-experience,
+.template-15-references {
+    margin-top: 20px;
+}
+
+.template-15-summary h3,
+.template-15-experience h3,
+.template-15-references h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.template-15-summary p,
+.template-15-experience p,
+.template-15-references p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.template-15-experience .template-15-job {
+    margin-bottom: 20px;
+}
+
+.template-15-experience h4 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.template-15-experience p {
+    font-size: 14px;
+    color: #777;
+}
+
+.template-15-experience ul {
+    margin: 5px 0 0;
+    padding-left: 20px;
+}
+
+.template-15-experience li {
+    list-style-type: disc;
+    margin: 5px 0;
+    color: #555;
+}
