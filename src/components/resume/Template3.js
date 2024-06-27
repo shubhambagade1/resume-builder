@@ -1,14 +1,10 @@
-import React from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import React, { useState } from 'react';
+import '../styles/template-3.css';
 import dummyimg from '../../images/dummyimg.jpg';
-import { useState } from 'react';
 import html2pdf from 'html2pdf.js';
-import "../styles/template-3.css"
-
 
 const Template3 = () => {
     const [profileImg, setProfileImg] = useState(dummyimg);
-
 
     const handleProfileImgChange = (event) => {
         const file = event.target.files[0];
@@ -22,9 +18,9 @@ const Template3 = () => {
     };
 
     const downloadPDF = () => {
-        const element = document.getElementsByClassName('row')[0];
+        const element = document.getElementsByClassName('template-3-resume-container')[0];
         const opt = {
-            filename: 'Non technical resume.pdf',
+            filename: 'Resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
@@ -33,71 +29,96 @@ const Template3 = () => {
     };
 
     return (
-        <div className="container-fluid template-3-main-wrapper">
-            <div className="row main-content-template-3">
-                <div className="col-md-4 text-center py-5 bg-primary text-white template-3-left-content">
-                    <div className="profile-image">
-                        <img id="profileImg" src={profileImg} alt="Profile" onClick={() => document.getElementById('profilePhotoInput').click()} />
-                        <input type="file" id="profilePhotoInput" accept="image/*" onChange={handleProfileImgChange} />
+        <div className="template-3-main-wrapper">
+            <div className="template-3-resume-container">
+                <div className="template-3-left-column">
+                    <div className="template-3-profile-image" onClick={() => document.getElementById('profilePhotoInput').click()}>
+                        <img src={profileImg} alt="Profile" />
+                        <input type="file" id="profilePhotoInput" accept="image/*" onChange={handleProfileImgChange} style={{ display: 'none' }} />
                     </div>
-                    <div className="container">
-                        <h3 className='mt-3' contentEditable="true">Eg.lorem loeerm</h3>
-                        <hr />
-                        <div className='leftside-info'>
-                            <div className="mobile" contentEditable="true"><FaPhone /> &nbsp;+1 123-456-7890</div>
-                            <div className="location" contentEditable="true"><FaMapMarkerAlt /> &nbsp;City, State</div>
-                            <div className="email" contentEditable="true"><FaEnvelope />&nbsp; &nbsp;johndoe@example.com</div><br />
-                        </div>
+                    <div className="template-3-section">
+                        <h3>Contact</h3>
+                        <p contentEditable="true">+1 212 06 06 060</p>
+                        <p contentEditable="true">name@email.com</p>
+                        <p contentEditable="true">LA, California</p>
                     </div>
-                    <hr />
+                    <div className="template-3-section">
+                        <h3>Career Objective</h3>
+                        <p contentEditable="true">Passionate and enthusiastic 3rd year student with excellent interpersonal skills and a high interest in foreign languages. Looking for a student job as a hostess in a hotel or a catering company.</p>
+                    </div>
+                    <div className="template-3-section">
+                        <h3>Languages</h3>
+                        <p contentEditable="true">English</p>
+                        <p contentEditable="true">French</p>
+                        <p contentEditable="true">Italian</p>
+                    </div>
+                    <div className="template-3-section">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li contentEditable="true">Team work</li>
+                            <li contentEditable="true">Creativity</li>
+                            <li contentEditable="true">Open-mindedness</li>
+                            <li contentEditable="true">Punctuality</li>
+                            <li contentEditable="true">Photoshop</li>
+                            <li contentEditable="true">Video</li>
+                        </ul>
+                    </div>
+                    <div className="template-3-section">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li contentEditable="true">Interest 1</li>
+                            <li contentEditable="true">Interest 2</li>
+                            <li contentEditable="true">Interest 3</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div className="col-md-8 py-1 template-3-right-content">
-                    <div className="card">
-                        <div className="card-header background">
-                            <h3 contentEditable="true">Objective</h3>
-                        </div>
-                        <div className="card-body">
-                            <p id="objT" contentEditable="true">Enter your Objective</p>
-                        </div>
+                <div className="template-3-right-column">
+                    <h2 contentEditable="true">Nancy Michaels</h2>
+                    <p className="template-3-job-title" contentEditable="true">Internship / Student Job</p>
+                    <div className="template-3-section">
+                        <h3 className='template-3-right-column-heading'>Education</h3>
+                        <h4 contentEditable="true">Hospitality & Tourism, B.S.</h4>
+                        <p contentEditable="true">California State University | 20XX - 20XX</p>
+                        <ul>
+                            <li contentEditable="true">F&B management</li>
+                            <li contentEditable="true">Travel and tourism</li>
+                            <li contentEditable="true">Revenue management</li>
+                            <li contentEditable="true">Law and ethics</li>
+                        </ul>
+                        <h4 contentEditable="true">High School Diploma</h4>
+                        <p contentEditable="true">Los Angeles High School | 20XX</p>
+                        <ul>
+                            <li contentEditable="true">Graduated with honors</li>
+                            <li contentEditable="true">Class valedictorian</li>
+                            <li contentEditable="true">National debate team</li>
+                            <li contentEditable="true">Captain of basketball team</li>
+                        </ul>
                     </div>
-
-                    <div className="card mt-4">
-                        <div className="card-header background">
-                            <h3 contentEditable="true">Skills</h3>
-                        </div>
-                        <div className="card-body">
-                            <ul contentEditable="true">
-                                <li>html</li>
-                                <li>css</li>
-                                <li>js</li>
-                                <li>react</li>
-                            </ul>
-                        </div>
+                    <div className="template-3-section">
+                        <h3 className='template-3-right-column-heading'>Professional Experience</h3>
+                        <h4 contentEditable="true">Catering Services</h4>
+                        <p contentEditable="true">Cater2U, LA | July 20XX</p>
+                        <ul>
+                            <li contentEditable="true">Taking inventory</li>
+                            <li contentEditable="true">Assisting in kitchen duties</li>
+                            <li contentEditable="true">Serving event attendees</li>
+                        </ul>
+                        <h4 contentEditable="true">Fry Cook</h4>
+                        <p contentEditable="true">Popeye's | July 20XX</p>
+                        <ul>
+                            <li contentEditable="true">Prepared and executed dishes</li>
+                            <li contentEditable="true">Kept an organized workstation</li>
+                        </ul>
                     </div>
-
-                    <div className="card mt-4">
-                        <div className="card-header background">
-                            <h3 contentEditable="true">Education</h3>
-                        </div>
-                        <div className="card-body">
-                            <ul contentEditable="true">
-                                <li>Master of computer applications in 2023</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="card mt-4">
-                        <div className="card-header background">
-                            <h3 contentEditable="true">Work Experience</h3>
-                        </div>
-                        <div className="card-body">
-                            <ul contentEditable="true">
-                                <li>worked in the xyz company for 2 years</li>
-                                <li>worked in the abc company for 1 years</li>
-                                <li>worked in the pqr company for 3 years</li>
-                            </ul>
-                        </div>
+                    <div className="template-3-section">
+                        <h3 className='template-3-right-column-heading'>Volunteer</h3>
+                        <h4 contentEditable="true">Soup Kitchen</h4>
+                        <p contentEditable="true">Leeza's Care Connection | December 20XX</p>
+                        <ul>
+                            <li contentEditable="true">Prepared food for Alzheimer patients</li>
+                            <li contentEditable="true">Food distribution</li>
+                            <li contentEditable="true">Provided emotional support when needed</li>
+                        </ul>
                     </div>
                 </div>
             </div>
