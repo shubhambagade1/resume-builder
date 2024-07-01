@@ -1,0 +1,85 @@
+.datascientist-1-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.datascientist-1-header {
+    text-align: center;
+}
+
+.datascientist-1-name {
+    font-size: 2em;
+    margin: 0;
+}
+
+.datascientist-1-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #ff6600;
+}
+
+.datascientist-1-contact {
+    font-size: 1em;
+    color: #666;
+}
+
+.datascientist-1-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.datascientist-1-left,
+.datascientist-1-right {
+    width: 48%;
+}
+
+.datascientist-1-summary,
+.datascientist-1-experience,
+.datascientist-1-education,
+.datascientist-1-languages,
+.datascientist-1-strengths,
+.datascientist-1-skills,
+.datascientist-1-achievements {
+    margin-top: 20px;
+}
+
+.datascientist-1-section-heading {
+    color: #ff6600;
+}
+
+.datascientist-1-experience-heading,
+.datascientist-1-job-heading,
+.datascientist-1-education-heading{
+    font-size: large;
+    font-weight: bold;
+}
+
+.datascientist-1-job h4,
+.datascientist-1-job h5,
+.datascientist-1-edu-item h4 {
+    margin: 5px 0;
+}
+
+.datascientist-1-job ul,
+.datascientist-1-achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.datascientist-1-job ul li,
+.datascientist-1-achievements ul li {
+    margin: 5px 0;
+}
+
+.datascientist-1-skills p,
+.datascientist-1-languages p {
+    margin: 5px 0;
+}
+
+.datascientist-1-section-heading{
+    font-size: large;
+}

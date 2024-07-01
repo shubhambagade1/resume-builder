@@ -47,24 +47,20 @@ const ResumeTemplate = () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
 
-    // Set canvas size
     canvas.width = 800;
     canvas.height = 1200;
 
-    // Draw background
     ctx.fillStyle = '#f4f4f9';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Draw profile section
     ctx.fillStyle = '#2c3e50';
     ctx.fillRect(0, 0, 300, canvas.height);
 
-    // Draw photo
     const img = new Image();
-    img.src = 'https://via.placeholder.com/150'; // Replace with your photo URL
+    img.src = 'https://via.placeholder.com/150';
     img.onload = () => {
       ctx.drawImage(img, 75, 50, 150, 150);
-      setImageLoaded(true); // Set imageLoaded to true when the image is loaded
+      setImageLoaded(true);
     };
   }, []);
 

@@ -1,0 +1,21 @@
+.template-20-main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .template-20-container {
+    width: 800px;
+  }
+  
+  canvas {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 20px; */
+  }
+  
+  

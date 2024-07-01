@@ -6,7 +6,7 @@ import html2pdf from 'html2pdf.js';
 const Template18 = () => {
 
     const downloadPDF = () => {
-        const element = document.getElementsByClassName('template-17-resume-container')[0];
+        const element = document.getElementsByClassName('template-18-resume-container')[0];
         const opt = {
             filename: 'Technical Consultant-resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
@@ -16,7 +16,7 @@ const Template18 = () => {
         html2pdf().from(element).set(opt).save();
     };
     return (
-        <div className='template-17-main-wrapper'>
+        <div className='template-18-main-wrapper'>
             <div className="template-18-container">
                 <header className="template-18-header">
                     <h1 className="template-18-name">Jessica Claire</h1>

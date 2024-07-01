@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.datascientist-template-2-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.datascientist-template-2-left {
+    flex: 3;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.datascientist-template-2-right {
+    flex: 1;
+    background: #416141;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.datascientist-2-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.datascientist-template-2-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.datascientist-template-2-header h2 {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0 20px;
+}
+
+.datascientist-template-2-summary {
+    margin-bottom: 20px;
+    background: #e3eec9;
+    padding: 15px;
+    border-left: 5px solid #96c93d;
+}
+
+.datascientist-template-2-summary p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.datascientist-template-2-experience,
+.datascientist-template-2-education {
+    margin-bottom: 20px;
+}
+
+.datascientist-template-2-experience h2,
+.datascientist-template-2-education h2,
+.datascientist-template-2-skills h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #96c93d;
+    padding-bottom: 5px;
+}
+
+.datascientist-template-2-job h3,
+.datascientist-template-2-degree h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.datascientist-template-2-job h4,
+.datascientist-template-2-degree p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.datascientist-template-2-job ul,
+.datascientist-template-2-skills ul {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+.datascientist-template-2-job ul li,
+.datascientist-template-2-skills ul li {
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.datascientist-template-2-profile-image {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.datascientist-template-2-contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin: 10px 0;
+}

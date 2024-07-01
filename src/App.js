@@ -3,7 +3,7 @@ import RenderPages from "./components/TemplateRender"
 
 const App = () => {
   return (
-    <RenderPages></RenderPages>
+    <RenderPages> </RenderPages>
   );
 };
 
