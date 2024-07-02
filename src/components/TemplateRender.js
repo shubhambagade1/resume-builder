@@ -26,6 +26,10 @@ import Template20 from "./resume/Template20"
 import DataScientist1 from "./resume/DataScientist"
 import DataScientist2 from "./resume/DataScientist2";
 import DataScientist3 from "./resume/DataScientist3";
+import DataScientist4 from "./resume/DataScientist4";
+import DataScientist5 from "./resume/DataScientist5";
+import BusinessAnalyst1 from "./resume/BusinessAnalyst1";
+
 
 const App = () => {
   return (
@@ -54,6 +58,10 @@ const App = () => {
         <Route path="/datasientist1" element={<DataScientist1 />} />
         <Route path="/datasientist2" element={<DataScientist2 />} />
         <Route path="/datasientist3" element={<DataScientist3 />} />
+        <Route path="/datasientist4" element={<DataScientist4 />} />
+        <Route path="/datasientist5" element={<DataScientist5 />} />
+        <Route path="/businessAnalyst1" element={<BusinessAnalyst1 />} />
+
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

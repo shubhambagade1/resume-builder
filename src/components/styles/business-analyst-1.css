@@ -1,0 +1,162 @@
+.business-analyst-1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.business-analyst-1-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.business-analyst-1-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ee8c0f;
+}
+
+.business-analyst-img-container {
+    width: 35%;
+    text-align: center;
+}
+
+.business-analyst-1-profile-image {
+    width: auto;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px solid #ee8c0f;
+}
+
+.business-analyst-1-header-text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 15px 21px 24px 48px;
+    border-left: 2px solid #ee8c0f;
+}
+
+.business-analyst-1-header-text h1 {
+    font-size: 43px;
+    margin: 0;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+.business-analyst-1-header-text h2 {
+    font-size: 18px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.business-analyst-1-contact p {
+    font-size: 14px;
+    color: #555;
+    margin: 2px 0;
+}
+
+.business-analyst-1-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.business-analyst-1-about {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f3f4f6;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+
+.business-analyst-1-about h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.business-analyst-1-about p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.business-analyst-1-content {
+    display: flex;
+}
+
+.business-analyst-1-left {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.business-analyst-1-right {
+    border-left: 2px solid #ee8c0f;
+    width: 65%;
+    padding: 20px;
+}
+
+.business-analyst-1-experiences h3,
+.business-analyst-1-skills h3,
+.business-analyst-1-education h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+.business-analyst-1-job h4 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+.business-analyst-1-job p {
+    font-size: 14px;
+    margin: 0;
+    color: #777;
+}
+
+.business-analyst-1-job ul {
+    margin: 10px 0 0 20px;
+    list-style-type: disc;
+}
+
+.business-analyst-1-skills ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.business-analyst-1-skills ul li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.business-analyst-1-skills ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+}
+
+.business-analyst-1-education p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}

@@ -1,0 +1,97 @@
+.datascientist-5-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datascientist-5-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.datascientist-5-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #e6e9ec;
+}
+
+.datascientist-5-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.datascientist-5-header-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.datascientist-5-header-text h2 {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.datascientist-5-header-text p {
+    font-size: 14px;
+    color: #333;
+}
+
+.datascientist-5-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    background: #e0e4cd;
+}
+
+.datascientist-5-sections-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datascientist-5-content-div {
+    display: flex;
+    background-color: rgb(88, 123, 123);
+    color: white;
+    padding: 20px;
+}
+
+.datascientist-5-content-left,
+.datascientist-5--content-right {
+    flex: 1;
+}
+
+.datascientist-5-job p,
+.datascientist-5-job ul,
+.datascientist-5-job li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.datascientist-5-skills-grid,
+.datascientist-5-interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.datascientist-5-skills-grid span,
+.datascientist-5-interests-grid span {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
