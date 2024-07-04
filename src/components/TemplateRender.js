@@ -29,6 +29,12 @@ import DataScientist3 from "./resume/DataScientist3";
 import DataScientist4 from "./resume/DataScientist4";
 import DataScientist5 from "./resume/DataScientist5";
 import BusinessAnalyst1 from "./resume/BusinessAnalyst1";
+import BusinessAnalyst2 from "./resume/BusinessAnalyst2";
+import BusinessAnalyst3 from "./resume/BusinessAnalyst3";
+import BusinessAnalyst4 from "./resume/BusinessAnalyst4";
+import BusinessAnalyst5 from "./resume/BusinessAnalyst5";
+import Sales1 from "./resume/Sales1";
+import Sales2 from "./resume/Sales2";
 
 
 const App = () => {
@@ -61,7 +67,12 @@ const App = () => {
         <Route path="/datasientist4" element={<DataScientist4 />} />
         <Route path="/datasientist5" element={<DataScientist5 />} />
         <Route path="/businessAnalyst1" element={<BusinessAnalyst1 />} />
-
+        <Route path="/businessAnalyst2" element={<BusinessAnalyst2 />} />
+        <Route path="/businessAnalyst3" element={<BusinessAnalyst3 />} />
+        <Route path="/businessAnalyst4" element={<BusinessAnalyst4 />} />
+        <Route path="/businessAnalyst5" element={<BusinessAnalyst5 />} />
+        <Route path="/sales1" element={<Sales1/>}/>
+        <Route path="/sales2" element={<Sales2/>}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

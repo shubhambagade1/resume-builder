@@ -1,0 +1,123 @@
+.business-analyst-4-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.business-analyst-4-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.business-analyst-4-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.business-analyst-4-header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.business-analyst-4-header h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.business-analyst-4-content {
+    display: flex;
+}
+
+.business-analyst-4-left-content {
+    width: 30%;
+    padding: 8px;
+    border-right: 1px solid gray;
+}
+
+.business-analyst-4-right-content {
+    width: 70%;
+    padding: 8px;
+}
+
+.business-analyst-4-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-analyst-summry-content {
+    display: flex;
+    align-items: center;
+}
+
+.business-analyst-summry-content p {
+    width: 381px;
+}
+
+.business-analyst-4-contacts h3,
+.business-analyst-4-summary h3,
+.business-analyst-4-education h3,
+.business-analyst-4-work-experience h3,
+.business-analyst-4-skills h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #e6e9ec;
+    padding: 11px;
+    border-top: 2px solid #e6e9ec;
+}
+
+.business-analyst-4-contacts p,
+.business-analyst-4-summary p,
+.business-analyst-4-education p,
+.business-analyst-4-work-experience p,
+.business-analyst-4-skills ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.business-analyst-4-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.business-analyst-4-education-experience {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.business-analyst-4-education,
+.business-analyst-4-work-experience {
+    width: auto;
+}
+
+.business-analyst-4-work-experience div {
+    margin-bottom: 15px;
+}
+
+.business-analyst-4-skills {
+    margin-top: 20px;
+}
+
+.business-analyst-4-skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.business-analyst-4-skills ul li {
+    background: #f5f8fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}

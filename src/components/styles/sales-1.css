@@ -1,0 +1,81 @@
+.sales-1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.sales-1-container {
+    background-color: #ffffff;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.sales-1-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.sales-1-header h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.sales-1-header h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #1a8ec1;
+}
+
+.sales-1-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.sales-1-contact-info p {
+    margin-right: 15px;
+}
+
+.sales-1-content {
+    display: flex;
+}
+
+.sales-1-left-column {
+    flex: 1;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 20px;
+}
+
+.sales-1-right-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.sales-1-section {
+    margin-bottom: 20px;
+}
+
+.sales-1-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1a8ec1;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.sales-1-section ul {
+    padding-left: 20px;
+}
+
+.sales-1-section ul li {
+    margin-bottom: 5px;
+}
+
