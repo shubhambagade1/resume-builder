@@ -1,0 +1,112 @@
+.sales-5-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sales-5-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.sales-5-header {
+    display: flex;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+}
+
+.sales-5-header-left {
+    margin-right: 20px;
+}
+
+.sales-5-header-right h1 {
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.sales-5-header-right h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: #d7a575;
+}
+
+.sales-5-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sales-5-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sales-5-left-content {
+    width: 35%;
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.sales-5-right-content {
+    width: 65%;
+    padding: 10px;
+}
+
+.sales-5-contact,
+.sales-5-skills,
+.sales-5-qualifications,
+.sales-5-summary,
+.sales-5-experience {
+    margin-bottom: 20px;
+}
+
+.sales-5-contact h3,
+.sales-5-skills h3,
+.sales-5-qualifications h3,
+.sales-5-summary h3,
+.sales-5-experience h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #d7a575;
+    padding-bottom: 5px;
+}
+
+.sales-5-contact p,
+.sales-5-skills ul,
+.sales-5-skills ul li,
+.sales-5-qualifications p,
+.sales-5-summary p,
+.sales-5-experience p,
+.sales-5-experience ul,
+.sales-5-experience ul li {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.sales-5-skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sales-5-skills ul li {
+    background: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.sales-5-download-section {
+    margin-top: 20px;
+}

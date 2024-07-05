@@ -35,6 +35,9 @@ import BusinessAnalyst4 from "./resume/BusinessAnalyst4";
 import BusinessAnalyst5 from "./resume/BusinessAnalyst5";
 import Sales1 from "./resume/Sales1";
 import Sales2 from "./resume/Sales2";
+import Sales3 from "./resume/Sales3";
+import Sales4 from "./resume/Sales4";
+import Sales5 from "./resume/Sales5";
 
 
 const App = () => {
@@ -73,6 +76,9 @@ const App = () => {
         <Route path="/businessAnalyst5" element={<BusinessAnalyst5 />} />
         <Route path="/sales1" element={<Sales1/>}/>
         <Route path="/sales2" element={<Sales2/>}/>
+        <Route path="/sales3" element={<Sales3/>}/>
+        <Route path="/sales4" element={<Sales4/>}/>
+        <Route path="/sales5" element={<Sales5/>}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

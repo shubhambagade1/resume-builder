@@ -1,0 +1,119 @@
+.sales-4-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.sales-4-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.sales-4-header {
+    display: flex;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+}
+
+.sales-4-header-left {
+    margin-right: 20px;
+}
+
+.sales-4-header-right h1 {
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #d7a575;
+}
+
+.sales-4-header-right h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.sales-4-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sales-4-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sales-4-left-content {
+    width: 30%;
+    padding: 10px;
+    background-color: #faf2e5;
+}
+
+.sales-4-right-content {
+    width: 70%;
+    padding: 10px;
+}
+
+.sales-4-contact,
+.sales-4-skills,
+.sales-4-reference,
+.sales-4-summary,
+.sales-4-experience,
+.sales-4-education {
+    margin-bottom: 20px;
+}
+
+.sales-4-contact h3,
+.sales-4-skills h3,
+.sales-4-reference h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #d7a575;
+    padding: 5px;
+    background-color: white;
+}
+
+
+.sales-4-summary h3,
+.sales-4-experience h3,
+.sales-4-education h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #d7a575;
+    padding: 5px;
+    background-color: #faf2e5;
+}
+
+.sales-4-contact p,
+.sales-4-skills ul,
+.sales-4-skills ul li,
+.sales-4-reference p,
+.sales-4-summary p,
+.sales-4-experience p,
+.sales-4-experience ul,
+.sales-4-experience ul li,
+.sales-4-education p,
+.sales-4-education ul,
+.sales-4-education ul li {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.sales-4-skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sales-4-skills ul li {
+    background: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}

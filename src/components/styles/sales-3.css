@@ -1,0 +1,130 @@
+.sales-3-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f9;
+    padding: 40px 0;
+}
+
+.sales-3-container {
+    width: 850px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.sales-3-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    background: #f0f0f0;
+}
+
+.sales-3-header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-3-profile-img-container {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+}
+
+.sales-3-profile-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.sales-3-contact-details {
+    margin-bottom: 25px;
+}
+
+.sales-3-contact-details h1 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.sales-3-contact-details h2 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    color: #777;
+}
+
+.sales-3-contact-details p {
+    font-size: 14px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sales-3-contact-details p svg {
+    margin-right: 10px;
+}
+
+.sales-3-content {
+    display: flex;
+}
+
+.sales-3-left-content {
+    width: 35%;
+    padding: 30px;
+    background: #eaeaea;
+    border-radius: 70px 70px 0px 0px;
+}
+
+.sales-3-right-content {
+    width: 65%;
+    padding: 30px;
+}
+
+.sales-3-section {
+    margin-bottom: 30px;
+}
+
+.sales-3-section h3 {
+    font-size: 18px;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.sales-3-section h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.sales-3-section h5 {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.sales-3-section p, .sales-3-section ul {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.sales-3-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sales-3-section ul li {
+    margin-bottom: 5px;
+}
+
+.sales-3-section-reference{
+    display: flex;
+}
