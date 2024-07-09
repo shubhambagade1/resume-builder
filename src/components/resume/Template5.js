@@ -18,7 +18,7 @@ const Resume = () => {
         }
     };
     const downloadPDF = () => {
-        const element = document.getElementsByClassName('main-content-template-4')[0];
+        const element = document.getElementsByClassName('template-5-resume-container')[0];
         const opt = {
             filename: 'Account-resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
@@ -29,8 +29,8 @@ const Resume = () => {
     };
 
     return (
-        <div className='template-3-main-wrapper'>
-            <div className="main-content-template-4">
+        <div className='template-5-main-wrapper'>
+            <div className="template-5-resume-container">
                 <header className='template-5-header'>
                     <div className="header-left">
                         <div className="profile-image">

@@ -30,7 +30,7 @@ const Resume = () => {
 
     return (
         <div className='template-14-main-wrapper'>
-            <div className='template-14-resume-container'>
+            <div className='template-14-resume-container' contentEditable="true">
                 <div className="template-14-left-column">
                     <header className="template-14-header">
                         <div>

@@ -7,17 +7,15 @@
 }
 
 .template-12-resume-header {
-    width: 260px;
     letter-spacing: 4px;
 }
 
 .template-12-resume-left {
     padding: 11px;
-    width: 550px;
+    width: 60%;
 }
 
 .template-12-resume-right {
-    flex: 1;
     background: #333;
     color: #fff;
     padding: 20px;
@@ -29,8 +27,8 @@
 }
 
 .template-12-photo img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 137px;
     border-radius: 50%;
     border: 5px solid #fff;
     margin: auto;
@@ -52,10 +50,7 @@
     color: #888;
 }
 
-.template-12-work-experience,
-.template-12-education {
-    margin-bottom: 20px;
-}
+
 
 .template-12-profile {
     margin-bottom: 20px;
@@ -70,7 +65,7 @@
 .template-12-rightside-divs {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 40%;
 }
 
 .template-12-profile h3,

@@ -1,3 +1,18 @@
+.template-5-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.template-5-resume-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
 .template-5-header {
     display: flex;
     justify-content: space-between;
@@ -31,9 +46,9 @@
     margin: 2px 0;
 }
 
-section {
+/* section {
     margin-bottom: 20px;
-}
+} */
 
 .heading-template-5 {
     color: #f2af01;

@@ -1,0 +1,108 @@
+.teaching-3-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.teaching-3-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.teaching-3-left-column {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teaching-3-profile-picture {
+    text-align: center;
+}
+
+.teaching-3-profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.teaching-3-name {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.teaching-3-contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teaching-3-contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.teaching-3-contact-info i {
+    margin-right: 10px;
+}
+
+.teaching-3-section {
+    margin-top: 20px;
+}
+
+.teaching-3-summary ul,
+.teaching-3-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.teaching-3-education p {
+    margin: 5px 0;
+}
+
+.teaching-3-right-column {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 65%;
+}
+
+.teaching-3-heading {
+    color: #ec7357;
+    border-bottom: 2px solid #ec7357;
+    padding-bottom: 5px;
+    font-size: 18px; /* Reduced font size */
+}
+
+.teaching-3-skills h3 {
+    font-size: 16px; /* Reduced font size */
+    margin: 10px 0;
+}
+
+.teaching-3-skills ul,
+.teaching-3-skills li {
+    margin: 10px 0;
+}
+
+.teaching-3-work-history h2 {
+    font-size: 18px; /* Reduced font size */
+    color: #ec7357;
+    border-bottom: 2px solid #ec7357;
+    padding-bottom: 5px;
+}
+
+.teaching-3-work-history p {
+    margin: 5px 0;
+}
+
+.download-section {
+    margin-top: 20px;
+}
+
