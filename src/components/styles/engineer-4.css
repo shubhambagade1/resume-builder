@@ -1,0 +1,108 @@
+.engineer-4-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.engineer-4-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.engineer-4-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.engineer-4-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.engineer-4-title {
+    font-size: 20px;
+    color: #666;
+}
+
+.engineer-4-content {
+    display: flex;
+}
+
+.engineer-4-left-column {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.engineer-4-right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.engineer-4-contact-info,
+.engineer-4-section {
+    margin-bottom: 20px;
+}
+
+.engineer-4-contact-info h2,
+.engineer-4-section h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.engineer-4-contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.engineer-4-contact-info i {
+    margin-right: 10px;
+}
+
+.engineer-4-skills ul,
+.engineer-4-experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.engineer-4-summary p {
+    margin: 5px 0;
+}
+
+.engineer-4-experience-item {
+    margin-bottom: 15px;
+}
+
+.engineer-4-experience-item h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.engineer-4-experience-item p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.engineer-4-experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.engineer-4-education p {
+    margin: 5px 0;
+}
+

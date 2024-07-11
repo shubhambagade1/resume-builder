@@ -40,6 +40,12 @@ import Sales4 from "./resume/Sales4";
 import Sales5 from "./resume/Sales5";
 import Teaching3 from "./resume/Teaching3";
 import Teaching4 from "./resume/Teaching4";
+import Teaching5 from "./resume/Teaching5";
+import Accountant3 from "./resume/Accountant3"
+import Accountant4 from "./resume/Accountant4"
+import Accountant5 from "./resume/Accountant5"
+import Engineer3 from "./resume/Engineer3";
+import Engineer4 from "./resume/Engineer4";
 
 
 const App = () => {
@@ -83,6 +89,12 @@ const App = () => {
         <Route path="/sales5" element={<Sales5/>}/>
         <Route path="/teaching3" element={<Teaching3/>}/>
         <Route path="/teaching4" element={<Teaching4/>}/>
+        <Route path="/teaching5" element={<Teaching5/>}/>
+        <Route path="/accountant3" element={<Accountant3/>}/>
+        <Route path="/accountant4" element={<Accountant4/>}/>
+        <Route path="/accountant5" element={<Accountant5/>}/>
+        <Route path="/engineer3" element={<Engineer3/>}/>
+        <Route path="/engineer4" element={<Engineer4/>}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

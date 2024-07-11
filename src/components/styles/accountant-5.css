@@ -1,0 +1,172 @@
+.accountant-5-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    padding: 40px 0;
+}
+
+.accountant-5-container {
+    width: 800px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px 30px;
+}
+
+.accountant-5-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.accountant-5-profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #d4d4d4;
+}
+
+.accountant-5-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accountant-5-title h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+.accountant-5-title h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.accountant-5-profile {
+    margin-bottom: 20px;
+}
+
+.accountant-5-profile h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.accountant-5-profile p {
+    font-size: 14px;
+    color: #555;
+}
+
+.accountant-5-contact-ref {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.accountant-5-contacts, .accountant-5-references {
+    width: 48%;
+}
+
+.accountant-5-contacts h3, .accountant-5-references h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.accountant-5-contacts p, .accountant-5-references p {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.accountant-5-contacts p svg, .accountant-5-references p svg {
+    margin-right: 10px;
+}
+
+.accountant-5-experience-education {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.accountant-5-work-experience, .accountant-5-education {
+    width: 48%;
+}
+
+.accountant-5-work-experience h3, .accountant-5-education h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.accountant-5-experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.accountant-5-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accountant-5-experience-content h4 {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.accountant-5-experience-content p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.accountant-5-skills-language {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.accountant-5-skills, .accountant-5-language {
+    width: 48%;
+}
+
+.accountant-5-skills h3, .accountant-5-language h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.accountant-5-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.accountant-5-skills li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.accountant-5-language p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
